@@ -1,7 +1,8 @@
 <!DOCTYPE html>
 <html>
 <head>
-
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+          rel="stylesheet">
     @vite(['resources/js/app.js'])
 </head>
 <body>

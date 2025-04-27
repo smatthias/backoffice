@@ -5,10 +5,20 @@
     "src": "resources/css/app.css",
     "isEntry": true
   },
+  "resources/images/logo.png": {
+    "file": "assets/logo-B6hY8BH1.png",
+    "src": "resources/images/logo.png"
+  },
   "resources/js/app.js": {
-    "file": "assets/app-BsLqO2sh.js",
+    "file": "assets/app-qm4k-XRN.js",
     "name": "app",
     "src": "resources/js/app.js",
-    "isEntry": true
+    "isEntry": true,
+    "css": [
+      "assets/app-C661XGDE.css"
+    ],
+    "assets": [
+      "assets/logo-B6hY8BH1.png"
+    ]
   }
 }
