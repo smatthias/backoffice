@@ -1,13 +1,8 @@
-import Home from "../components/Home.vue";
-import About from "../components/About.vue";
-import Login from "../components/login/LoginComponent.vue";
-
 import {createMemoryHistory, createRouter} from "vue-router";
+import Dashboard from "../components/Dashboard.vue";
 
 const index = [
-    { path: '/', component: Home },
-    { path: '/about', component: About },
-    { path: '/login', component: Login}
+    { path: '/dashboard', component: Dashboard },
 ];
 
 const router = createRouter({
