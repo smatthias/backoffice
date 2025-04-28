@@ -4,7 +4,8 @@ import App from '../App.vue'
 import { createI18n } from 'vue-i18n'
 import tagsDe from "../locales/de_tags";
 import tagsEn from "../locales/en_tags";
-import router from '../router'
+import router from '../router';
+import '../styles.css';
 
 const i18n = createI18n({
     locale: 'de',
